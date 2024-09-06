@@ -73,5 +73,5 @@ sudo sed -i 's/ID="ubuntu"/ID="centos"/g' /etc/os-release
 
 ### 8、Enjoy!
 
-#### Thanks
+## Thanks
 - [IceWhaleTech]([https://www.apple.com](https://github.com/IceWhaleTech)) for CasaOS
