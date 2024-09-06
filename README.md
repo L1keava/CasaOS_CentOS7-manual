@@ -6,14 +6,15 @@
 
 3288922513@qq.com
 
-## ![image-20240906200327461](C:\Users\shich\AppData\Roaming\Typora\typora-user-images\image-20240906200327461.png)
+## ![image](https://github.com/user-attachments/assets/dcb0c09c-e77e-4b96-924a-504b1635d255)
+
 
 ## CasaOS安装向导
 
 ### 1、克隆本仓库以下载所需软件包：
 
 ```
-git clone
+git clone https://github.com/L1keava/CasaOS_CentOS7-manual
 ```
 
 ### 2、安装ntfs-3g
