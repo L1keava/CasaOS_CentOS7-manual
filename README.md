@@ -32,7 +32,6 @@ cd
 ### 3、安装udevil
 
 ```
-wget -O udevil-next.tar.gz https://github.com/IgnorantGuru/udevil/tarball/next
 tar -xf udevil-next.tar.gz 
 cd IgnorantGuru-udevil-77a6180/
 yum -y install intltool glib* udev* libudev*
@@ -45,7 +44,6 @@ cd
 ### 4、安装mergerfs
 
 ```
-wget https://ghproxy.net/https://github.com/trapexit/mergerfs/releases/download/2.40.2/mergerfs-2.40.2.tar.gz
 tar -xf mergerfs-2.40.2.tar.gz
 cd mergerfs-2.40.2
 make
@@ -67,4 +65,10 @@ sudo sed -i 's/ID="centos"/ID="ubuntu"/g' /etc/os-release
 sh get_casaOS.sh
 ```
 
-### 7、Enjoy!
+### 7、恢复系统版本更改
+
+```
+sudo sed -i 's/ID="ubuntu"/ID="centos"/g' /etc/os-release
+```
+
+### 8、Enjoy!
