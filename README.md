@@ -34,7 +34,7 @@ cd
 ```
 tar -xf udevil-next.tar.gz 
 cd IgnorantGuru-udevil-77a6180/
-yum -y install intltool glib* udev* libudev*
+yum -y install intltool glib* udev* libudev* gcc gcc-c++ libstdc++-devel make
 ./configure --prefix=/usr
 make
 make install
